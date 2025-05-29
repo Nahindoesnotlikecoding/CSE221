@@ -1,0 +1,41 @@
+Suppose you are given two lists of integers listA and listB. Find if the
+integers of listB is a subsequence of the integers of listA. A subsequence is
+defined as a sequence that can be derived from another sequence by deleting some
+or none of the elements without changing the order of the remaining elements.
+Your algorithm should run in O(N+M) time complexity, where N and M are the
+lengths of listA and listB respectively.
+
+Example-1:
+listA = [2, 4, 1, 5, 6, 8, 1, 2, 7, 7]
+listB = [4, 8, 2, 7]
+solve(listA, listB) returns "Yes"
+
+Example-2:
+listA = [1, 2, 3, 4]
+listB = [1, 2, 3, 4, 5, 6]
+solve(listA, listB) returns "No"
+
+Constraints:
+1 <= N <= 1000
+1 <= M <= 1000
+-100000 <= listA[i] <= 100000
+-100000 <= listB[i] <= 100000
+
+Scoring:
+Batch   Score   Tests   max(max(N, M))
+1       0.1     10      10
+2       0.1     1000    10
+3       0.1     100000  10
+4       0.1     10      100
+5       0.1     100     100
+6       0.1     1000    100
+7       0.1     10000   100
+8       0.1     1       1000
+9       0.1     10      1000
+10      0.1     100     1000
+--------------------------------
+10      1       Total
+
+Time limit: 1s per batch.
+
+Forbidden keywords: sort main scan print input output file read write thread process
